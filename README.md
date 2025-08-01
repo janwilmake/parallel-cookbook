@@ -46,7 +46,7 @@ How to use context with your LLM/IDE?
 
 ### Finetuning the scope of your request and gathering the right contexts for this
 
-You can use this prompt to iteratively get to a better definition of what you want to build, and get the right context for this. Please note that the Python SDK is not included in this quickstart. You can add it if desired, you can also let it generate an ad-hoc client more tailored for your specific use-case.
+You can use this prompt to iteratively get to a better definition of what you want to build, and get the right context for this. Please note that the Python SDK is not included in this quickstart. You can add it if desired, you can also let it generate an ad-hoc client more tailored for your specific use-case. The latter requires less context for the same information and is the way that I recommend.
 
 ```txt path="relevant-context-prompt.txt"
 OpenAPI: @https://parallel.oapis.org/llms.txt
