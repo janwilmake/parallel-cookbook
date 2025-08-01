@@ -48,6 +48,7 @@ How to use context with your LLM/IDE?
 - [Cursor @ Symbols](https://docs.cursor.com/en/context/@-symbols/overview)
 - [Context Management in VSCode](https://code.visualstudio.com/docs/copilot/chat/copilot-chat-context#_add-files-as-context) works with URLs directly
 - [Claude Code](https://www.anthropic.com/engineering/claude-code-best-practices) works with URLs directly
+- [AmpCode](https://ampcode.com) works with URLs directly
 
 ## Quickstart prompts
 
