@@ -16,9 +16,11 @@ Depending on your question, please choose the contexts needed:
 - [Parallel Website and Blog](https://parallel.ai) - [![](https://badge.forgithub.com/janwilmake/parallel-website?maxTokens=10000000&lines=false)](https://uithub.com/janwilmake/parallel-website?maxTokens=10000000&lines=false)
 - [Python SDK](https://github.com/parallel-web/parallel-sdk-python) - [![](https://badge.forgithub.com/parallel-web/parallel-sdk-python?maxTokens=10000000&lines=false)](https://uithub.com/parallel-web/parallel-sdk-python?maxTokens=10000000&lines=false)
 
-Quickstart prompt:
+## Quickstart prompts
 
-```txt
+Getting relevant context for an app:
+
+```txt path="relevant-context.txt"
 Docs: @https://docs.parallel.ai/llms.txt
 OpenAPI: @https://parallel.oapis.org/llms.txt
 Website: @https://uithub.com/janwilmake/parallel-website/tree/main?omitFiles=true
@@ -29,6 +31,8 @@ I want to build a full-stack application with [your-technology]. Specification:
 
 [your-spec]
 ```
+
+[](https://letmeprompt.com?q=)
 
 <!--
 - 🟠 Typescript SDK (https://uithub.com/parallel-web/parallel-sdk-typescript)
