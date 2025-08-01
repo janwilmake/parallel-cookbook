@@ -1,9 +1,9 @@
-# Parallel AI Cookbook
+# Parallel AI - Context-aware Cookbook
 
 > [!WARNING]
 > Work In Progress.
 
-The following cookbook is designed to get you cooking with Parallel APIs as quickly as possible. It uses a 3-step framework to ensure maximum LLM output quality:
+The following cookbook is designed to get you cooking with Parallel APIs as quickly as possible. It uses a 3-step framework that allows ingesting the right context to ensure maximum LLM output quality:
 
 1. finetuning the scope of your request
 2. gathering the right contexts for this
@@ -37,9 +37,11 @@ How to use context with your LLM/IDE?
 
 ## Quickstart prompts
 
-### Getting relevant context for a new or existing project
+### Finetuning the scope of your request and gathering the right contexts for this
 
-```txt path="relevant-context.txt"
+You can use this prompt to iteratively get to a better definition of what you want to build, and get the right context for this.
+
+```txt path="relevant-context-prompt.txt"
 OpenAPI: @https://parallel.oapis.org/llms.txt
 Docs: @https://docs.parallel.ai/llms.txt
 Website: @https://uithub.com/janwilmake/parallel-website/tree/main?omitFiles=true
@@ -49,6 +51,16 @@ First, reason about the different choices that need to be made and ask the user 
 I want to build a full-stack application with [your-technology]. Specification:
 
 [your-spec]
+```
+
+### Creating a full implementation using the right context
+
+After you have the URLs of the right context, it's a matter of providing that togethr with your spec. To optimize for output quality, it's crucial to have complete context when prompting without providing too much irrelevant information to the model.
+
+```txt path="full-implementation-prompt.txt
+[Context URLs]
+
+[Your Full Spec]
 ```
 
 ## Recipes & Examples:
