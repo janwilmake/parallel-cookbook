@@ -21,6 +21,13 @@ Depending on your question, please choose the contexts needed:
 - [Python SDK](https://github.com/parallel-web/parallel-sdk-python) - [![](https://badge.forgithub.com/parallel-web/parallel-sdk-python?maxTokens=10000000&lines=false)](https://uithub.com/parallel-web/parallel-sdk-python?maxTokens=10000000&lines=false)
 
 <!--
+Note: Why badges?
+
+- Allows showing tokencount
+- Allows easy filtering of a context
+- Allows quickly seeing a prompt & result and altering the prompt
+
+Other contexts:
 - 🟠 Typescript SDK (https://uithub.com/parallel-web/parallel-sdk-typescript)
 - 🟠 MCP server to select context (Coming soon!)
 -->
