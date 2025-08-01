@@ -25,7 +25,7 @@ Website: @https://uithub.com/janwilmake/parallel-website/tree/main?omitFiles=tru
 
 Respond with a list of raw urls prepended with @, each newline a URL
 
-I want to build an app with Cloudflare Workers. Specification:
+I want to build a full-stack application with [your-technology]. Specification:
 
 [your-spec]
 ```
@@ -35,10 +35,14 @@ I want to build an app with Cloudflare Workers. Specification:
 - 🟠 MCP server to select context (Coming soon!)
 -->
 
-How to use it?
+How to use context with your LLM/IDE?
 
 - In Claude, Gemini, ChatGPT, or any other LLM of preference: Just copy-paste the context or use a GPT or MCP that can fetch URLs.
 - [Cline @ Mentions](https://docs.cline.bot/features/at-mentions/overview)
 - [Cursor @ Symbols](https://docs.cursor.com/en/context/@-symbols/overview)
 - [Context Management in VSCode](https://code.visualstudio.com/docs/copilot/chat/copilot-chat-context#_add-files-as-context) works with URLs directly
 - [Claude Code](https://www.anthropic.com/engineering/claude-code-best-practices) works with URLs directly
+
+Examples:
+
+- Building a tasks queue API: https://letmeprompt.com/httpsdocsparall-l8mbi60
