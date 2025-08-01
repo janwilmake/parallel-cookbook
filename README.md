@@ -30,6 +30,13 @@ Note: Why badges?
 Other contexts:
 - 🟠 Typescript SDK (https://uithub.com/parallel-web/parallel-sdk-typescript)
 - 🟠 MCP server to select context (Coming soon!)
+
+# Reduce LLM SDK context
+
+- Check if stainless allows generating pyi stubs: https://letmeprompt.com/what-is-a-dts-file-m18w490
+- Create and expose `types.d.ts` file for the Typescript SDK
+
+These would create a much shorter context for libraries that make it much more usable for LLMs. It's interesting to generate it programmatically, but since code is often badly documented or may contain comments that don't end up in the stub but ARE important, it'd also be very interesting to try and generate these files using AI.
 -->
 
 ## Using Context
@@ -77,15 +84,15 @@ After you have the URLs of the right context, it's a matter of providing that to
 
 These recipes focus on building full-stack serverless apps on Cloudflare Workers. You can alter the prompts as you wish to build using different technologies.
 
-| Title                 | Description                                                                                                                                                          | Scope Finetuning and Context Selection                    | First Iteration | Repo | Demo |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------- | ---- | ---- |
-| **Recipes**           |                                                                                                                                                                      |                                                           |                 |      |      |
-|                       | Coming soon (initial focus on advanced examples)                                                                                                                     |                                                           |                 |      |      |
-|                       |                                                                                                                                                                      |                                                           |                 |      |      |
-| **Basic Examples**    |                                                                                                                                                                      |                                                           |                 |      |      |
-|                       | Coming soon (initial focus on advanced examples)                                                                                                                     |                                                           |                 |      |      |
-|                       |                                                                                                                                                                      |                                                           |                 |      |      |
-| **Advanced Examples** |                                                                                                                                                                      |                                                           |                 |      |      |
-| Search Engine         | Using the chat completion streaming endpoint, let's build a simple search engine called GoogLLM that, after searching in the searchbar, streams in the chat response | [Result](https://letmeprompt.com/openapi-httpspa-qz04gq0) |                 |      |      |
-|                       |                                                                                                                                                                      |                                                           |                 |      |      |
-|                       |                                                                                                                                                                      |                                                           |                 |      |      |
+| Title                 | Description                                      | Repo                                           | Demo                |
+| --------------------- | ------------------------------------------------ | ---------------------------------------------- | ------------------- |
+| **Recipes**           |                                                  |                                                |                     |
+| -                     | Coming soon (initial focus on advanced examples) |                                                |                     |
+|                       |                                                  |                                                |                     |
+| **Basic Examples**    |                                                  |                                                |                     |
+| -                     | Idem ditto                                       |                                                |                     |
+|                       |                                                  |                                                |                     |
+| **Advanced Examples** |                                                  |                                                |                     |
+| GoogLLM v2            | Using the Parallel Search API to show results    | https://github.com/janwilmake/googllm-parallel | https://googllm.com |
+|                       |                                                  |                                                |                     |
+|                       |                                                  |                                                |                     |
