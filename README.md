@@ -18,7 +18,7 @@ Depending on your question, please choose the contexts needed:
 
 Quickstart prompt:
 
-```md
+```txt
 Docs: @https://docs.parallel.ai/llms.txt
 OpenAPI: @https://parallel.oapis.org/llms.txt
 Website: @https://uithub.com/janwilmake/parallel-website/tree/main?omitFiles=true
