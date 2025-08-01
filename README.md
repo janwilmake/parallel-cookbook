@@ -3,10 +3,6 @@
 > [!WARNING]
 > Work In Progress.
 
-## Recipes
-
-Coming soon!
-
 ## Choose Your Context
 
 Depending on your question, please choose the contexts needed:
@@ -16,30 +12,32 @@ Depending on your question, please choose the contexts needed:
 - [Parallel Website and Blog](https://parallel.ai) - [![](https://badge.forgithub.com/janwilmake/parallel-website?maxTokens=10000000&lines=false)](https://uithub.com/janwilmake/parallel-website?maxTokens=10000000&lines=false)
 - [Python SDK](https://github.com/parallel-web/parallel-sdk-python) - [![](https://badge.forgithub.com/parallel-web/parallel-sdk-python?maxTokens=10000000&lines=false)](https://uithub.com/parallel-web/parallel-sdk-python?maxTokens=10000000&lines=false)
 
+<!--
+- 🟠 Typescript SDK (https://uithub.com/parallel-web/parallel-sdk-typescript)
+- 🟠 MCP server to select context (Coming soon!)
+-->
+
 ## Quickstart prompts
 
-Getting relevant context for an app:
+### Getting relevant context for a new or existing project
 
 ```txt path="relevant-context.txt"
-Docs: @https://docs.parallel.ai/llms.txt
 OpenAPI: @https://parallel.oapis.org/llms.txt
+Docs: @https://docs.parallel.ai/llms.txt
 Website: @https://uithub.com/janwilmake/parallel-website/tree/main?omitFiles=true
 
-Respond with a list of raw urls prepended with @, each newline a URL
+First, reason about the different choices that need to be made and ask the user a set of questions. Respond with a bulletted list of raw urls (prepended with @) that might be relevant, depending on the decisions of the user.
 
 I want to build a full-stack application with [your-technology]. Specification:
 
 [your-spec]
 ```
 
-[](https://letmeprompt.com?q=)
+Examples:
 
-<!--
-- 🟠 Typescript SDK (https://uithub.com/parallel-web/parallel-sdk-typescript)
-- 🟠 MCP server to select context (Coming soon!)
--->
+- [Prompt Web Search UI](https://letmeprompt.com/httpsdocsparall-l8mbi60)
 
-# Using Context
+## Using Context
 
 How to use context with your LLM/IDE?
 
@@ -48,7 +46,3 @@ How to use context with your LLM/IDE?
 - [Cursor @ Symbols](https://docs.cursor.com/en/context/@-symbols/overview)
 - [Context Management in VSCode](https://code.visualstudio.com/docs/copilot/chat/copilot-chat-context#_add-files-as-context) works with URLs directly
 - [Claude Code](https://www.anthropic.com/engineering/claude-code-best-practices) works with URLs directly
-
-Examples:
-
-- Building a tasks queue API: https://letmeprompt.com/httpsdocsparall-l8mbi60
