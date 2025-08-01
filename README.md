@@ -1,7 +1,15 @@
-# Parallel Cookbook
+# Parallel AI Cookbook
 
 > [!WARNING]
 > Work In Progress.
+
+The following cookbook is designed to get you cooking with Parallel APIs as quickly as possible. It uses a 3-step framework to ensure maximum LLM output quality:
+
+1. finetuning the scope of your request
+2. gathering the right contexts for this
+3. creating a full implementation using the right context
+
+You can use this framework with any LLM/IDE that supports URL context expansion or MCP. For your convenience, we've also provided quick links to view contexts and prompt examples.
 
 ## Choose Your Context
 
@@ -45,7 +53,7 @@ I want to build a full-stack application with [your-technology]. Specification:
 
 ## Recipes & Examples:
 
-| Title         | Prompt                                                                                                                                                               | Scope Finetuning                                          | First Iteration | Repo | Demo |
+| Title         | Prompt                                                                                                                                                               | Scope Finetuning and Context Selection                    | First Iteration | Repo | Demo |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------- | ---- | ---- |
 | Search Engine | Using the chat completion streaming endpoint, let's build a simple search engine called GoogLLM that, after searching in the searchbar, streams in the chat response | [Result](https://letmeprompt.com/openapi-httpspa-qz04gq0) |                 |      |      |
 |               |                                                                                                                                                                      |                                                           |                 |      |      |
