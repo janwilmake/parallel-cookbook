@@ -19,16 +19,15 @@ Depending on your question, please choose the contexts needed:
 Quickstart prompt:
 
 ```md
-@https://docs.parallel.ai/llms.txt
-@https://parallel.oapis.org/llms.txt
-@https://uithub.com/janwilmake/parallel-website/tree/main?omitFiles=true (append filepath to this URL to get a specific file)
+Docs: @https://docs.parallel.ai/llms.txt
+OpenAPI: @https://parallel.oapis.org/llms.txt
+Website: @https://uithub.com/janwilmake/parallel-website/tree/main?omitFiles=true
 
-I want to build an app with [your-technology-stack]
+Respond with a list of raw urls prepended with @, each newline a URL
 
-Specification:
+I want to build an app with Cloudflare Workers. Specification:
+
 [your-spec]
-
-Please give me the URLs as @{URL} that are relevant context for this task
 ```
 
 <!--
