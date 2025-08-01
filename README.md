@@ -46,7 +46,8 @@ OpenAPI: @https://parallel.oapis.org/llms.txt
 Docs: @https://docs.parallel.ai/llms.txt
 Website: @https://uithub.com/janwilmake/parallel-website/tree/main?omitFiles=true
 
-First, reason about the different choices that need to be made and ask the user a set of questions. Respond with a bulletted list of raw urls (prepended with @) that might be relevant, depending on the decisions of the user.
+First, reason about the different choices that need to be made and ask the user a set of questions.
+Respond with a bulletted list of raw urls (prepended with @) that might be relevant, depending on the decisions of the user.
 
 I want to build a full-stack application with [your-technology]. Specification:
 
