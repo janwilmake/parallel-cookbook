@@ -84,15 +84,15 @@ After you have the URLs of the right context, it's a matter of providing that to
 
 These recipes focus on building full-stack serverless apps on Cloudflare Workers. You can alter the prompts as you wish to build using different technologies.
 
-| Title                 | Description                                      | Repo                                           | Demo                |
-| --------------------- | ------------------------------------------------ | ---------------------------------------------- | ------------------- |
-| **Recipes**           |                                                  |                                                |                     |
-| -                     | Coming soon (initial focus on advanced examples) |                                                |                     |
-|                       |                                                  |                                                |                     |
-| **Basic Examples**    |                                                  |                                                |                     |
-| -                     | Idem ditto                                       |                                                |                     |
-|                       |                                                  |                                                |                     |
-| **Advanced Examples** |                                                  |                                                |                     |
-| GoogLLM v2            | Using the Parallel Search API to show results    | https://github.com/janwilmake/googllm-parallel | https://googllm.com |
-|                       |                                                  |                                                |                     |
-|                       |                                                  |                                                |                     |
+| Title                 | Description                                      | Repo                                                   | Demo                |
+| --------------------- | ------------------------------------------------ | ------------------------------------------------------ | ------------------- |
+| **Recipes**           |                                                  |                                                        |                     |
+| -                     | Coming soon (initial focus on advanced examples) |                                                        |                     |
+|                       |                                                  |                                                        |                     |
+| **Basic Examples**    |                                                  |                                                        |                     |
+| -                     | Idem ditto                                       |                                                        |                     |
+|                       |                                                  |                                                        |                     |
+| **Advanced Examples** |                                                  |                                                        |                     |
+| GoogLLM v2            | Using the Parallel Search API to show results    | [Repo](https://github.com/janwilmake/googllm-parallel) | https://googllm.com |
+|                       |                                                  |                                                        |                     |
+|                       |                                                  |                                                        |                     |
