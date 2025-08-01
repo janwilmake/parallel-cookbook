@@ -23,7 +23,7 @@ Depending on your question, please choose the contexts needed:
 
 How to use it?
 
-- In Claude, Gemini, ChatGPT, etc: Just copy-paste the context or use a GPT or MCP that can fetch URLs.
+- In Claude, Gemini, ChatGPT, or any other LLM of preference: Just copy-paste the context or use a GPT or MCP that can fetch URLs.
 - [Cline @ Mentions](https://docs.cline.bot/features/at-mentions/overview)
 - [Cursor @ Symbols](https://docs.cursor.com/en/context/@-symbols/overview)
 - [Context Management in VSCode](https://code.visualstudio.com/docs/copilot/chat/copilot-chat-context#_add-files-as-context) works with URLs directly
