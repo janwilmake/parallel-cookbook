@@ -73,7 +73,7 @@ After you have the URLs of the right context, it's a matter of providing that to
 [Your Full Spec]
 ```
 
-## Recipes & Examples:
+## Recipes & Examples
 
 | Title         | Prompt                                                                                                                                                               | Scope Finetuning and Context Selection                    | First Iteration | Repo | Demo |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------- | ---- | ---- |
