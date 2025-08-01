@@ -44,6 +44,8 @@ How to use context with your LLM/IDE?
 
 ## Quickstart prompts
 
+The following examples have been tested with [Claude Sonnet 4](https://www.anthropic.com/claude/sonnet) ONLY, which is widely regarded one of the best AI coding models. That said, these prompts will work well with other models too.
+
 ### Finetuning the scope of your request and gathering the right contexts for this
 
 You can use this prompt to iteratively get to a better definition of what you want to build, and get the right context for this. Please note that the Python SDK is not included in this quickstart. You can add it if desired, you can also let it generate an ad-hoc client more tailored for your specific use-case. The latter requires less context for the same information and is the way that I recommend.
