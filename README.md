@@ -17,6 +17,16 @@ Depending on your question, please choose the contexts needed:
 - 🟠 MCP server to select context (Coming soon!)
 -->
 
+## Using Context
+
+How to use context with your LLM/IDE?
+
+- In Claude, Gemini, ChatGPT, or any other LLM of preference: Just copy-paste the context or use a GPT or MCP that can fetch URLs.
+- [Cline @ Mentions](https://docs.cline.bot/features/at-mentions/overview)
+- [Cursor @ Symbols](https://docs.cursor.com/en/context/@-symbols/overview)
+- [Context Management in VSCode](https://code.visualstudio.com/docs/copilot/chat/copilot-chat-context#_add-files-as-context) works with URLs directly
+- [Claude Code](https://www.anthropic.com/engineering/claude-code-best-practices) works with URLs directly
+
 ## Quickstart prompts
 
 ### Getting relevant context for a new or existing project
@@ -33,16 +43,9 @@ I want to build a full-stack application with [your-technology]. Specification:
 [your-spec]
 ```
 
-Examples:
+## Recipes & Examples:
 
-- [Prompt Web Search UI](https://letmeprompt.com/httpsdocsparall-l8mbi60)
-
-## Using Context
-
-How to use context with your LLM/IDE?
-
-- In Claude, Gemini, ChatGPT, or any other LLM of preference: Just copy-paste the context or use a GPT or MCP that can fetch URLs.
-- [Cline @ Mentions](https://docs.cline.bot/features/at-mentions/overview)
-- [Cursor @ Symbols](https://docs.cursor.com/en/context/@-symbols/overview)
-- [Context Management in VSCode](https://code.visualstudio.com/docs/copilot/chat/copilot-chat-context#_add-files-as-context) works with URLs directly
-- [Claude Code](https://www.anthropic.com/engineering/claude-code-best-practices) works with URLs directly
+| Title         | Prompt                                                                                                                                                               | Scope Finetuning                                          | First Iteration | Repo | Demo |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------- | ---- | ---- |
+| Search Engine | Using the chat completion streaming endpoint, let's build a simple search engine called GoogLLM that, after searching in the searchbar, streams in the chat response | [Result](https://letmeprompt.com/openapi-httpspa-qz04gq0) |                 |      |      |
+|               |                                                                                                                                                                      | Row 2 Col 3                                               |                 |      |      |
