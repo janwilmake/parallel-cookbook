@@ -16,10 +16,25 @@ Depending on your question, please choose the contexts needed:
 - Parallel Website and Blog [![](https://badge.forgithub.com/janwilmake/parallel-website?maxTokens=10000000&lines=false)](https://uithub.com/janwilmake/parallel-website?maxTokens=10000000&lines=false)
 - Python SDK [![](https://badge.forgithub.com/parallel-web/parallel-sdk-python?maxTokens=10000000&lines=false)](https://uithub.com/parallel-web/parallel-sdk-python?maxTokens=10000000&lines=false)
 
+Quickstart prompt:
+
+```md
+@https://docs.parallel.ai/llms.txt
+@https://parallel.oapis.org/llms.txt
+@https://uithub.com/janwilmake/parallel-website/tree/main?omitFiles=true (append filepath to this URL to get a specific file)
+
+I want to build an app with [your-technology-stack]
+
+Specification:
+[your-spec]
+
+Please give me the URLs as @{URL} that are relevant context for this task
+```
+
 <!--
 - 🟠 Typescript SDK (https://uithub.com/parallel-web/parallel-sdk-typescript)
 - 🟠 MCP server to select context (Coming soon!)
-  -->
+-->
 
 How to use it?
 
