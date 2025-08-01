@@ -9,7 +9,7 @@ The following cookbook is designed to get you cooking with Parallel APIs as quic
 2. gathering the right contexts for this
 3. creating a full implementation using the right context
 
-You can use this framework with any LLM/IDE that supports URL context expansion or MCP. For your convenience, we've also provided quick links to view contexts and prompt examples.
+You can use this framework with any LLM/IDE that supports URL context expansion or MCP. For your convenience, I've also provided quick links to view contexts and prompt examples.
 
 ## Choose Your Context
 
