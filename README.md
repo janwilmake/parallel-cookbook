@@ -91,7 +91,7 @@ These recipes focus on building full-stack serverless apps on Cloudflare Workers
 | cronjob task onto kv  |                                               |                                                          |                            |
 | batch tasks           |                                               |                                                          |                            |
 | tasks using mcp tools |                                               |                                                          |                            |
-| tasks using SSE       |                                               | [Repo](https://github.com/janwilmake/parallel-tasks-sse) | https://tasks.gptideas.com |
+| Tasks using SSE       |                                               | [Repo](https://github.com/janwilmake/parallel-tasks-sse) | https://tasks.gptideas.com |
 |                       |                                               |                                                          |                            |
 | **Advanced Examples** |                                               |                                                          |                            |
 | GoogLLM v2            | Using the Parallel Search API to show results | [Repo](https://github.com/janwilmake/googllm-parallel)   | https://googllm.com        |
