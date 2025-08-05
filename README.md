@@ -85,15 +85,17 @@ After you have the URLs of the right context, it's a matter of providing that to
 
 These recipes focus on building full-stack serverless apps on Cloudflare Workers. You can alter the prompts as you wish to build using different technologies.
 
-| Title                   | Description | Repo                                                     | Demo                       |
-| ----------------------- | ----------- | -------------------------------------------------------- | -------------------------- |
-| **Recipes**             |             |                                                          |                            |
-| cronjob task onto kv    |             |                                                          |                            |
-| batch tasks             |             |                                                          |                            |
-| tasks using mcp tools   |             |                                                          |                            |
-| Tasks using SSE         |             | [Repo](https://github.com/janwilmake/parallel-tasks-sse) | https://tasks.gptideas.com |
-|                         |             |                                                          |                            |
-| **Powered By Parallel** |             |                                                          |                            |
+| Title                   | Description                    | Repo                                                     | Demo                       |
+| ----------------------- | ------------------------------ | -------------------------------------------------------- | -------------------------- |
+| **Recipes**             | Simple                         |                                                          |                            |
+| Tasks using SSE         |                                | [Repo](https://github.com/janwilmake/parallel-tasks-sse) | https://tasks.gptideas.com |
+| Recurring Tasks         | Using cronjobs and KV          |                                                          |                            |
+| Tasks using MCP tools   |                                |                                                          |                            |
+| Batch tasks             | Using Pararllel Task Group API |                                                          |                            |
+| Batch tasks             | Using Cloudflare Queues        |                                                          |                            |
+|                         |                                |                                                          |                            |
+| **Powered By Parallel** |                                |                                                          |                            |
+| -                       |                                |                                                          |                            |
 
 <!--
 | GoogLLM v2 [soon]       | Using the Parallel Search API to show results | [Repo](https://github.com/janwilmake/googllm-parallel)   | https://googllm.com        |
