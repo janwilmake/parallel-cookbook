@@ -85,15 +85,18 @@ After you have the URLs of the right context, it's a matter of providing that to
 
 These recipes focus on building full-stack serverless apps on Cloudflare Workers. You can alter the prompts as you wish to build using different technologies.
 
-| Title                 | Description                                   | Repo                                                     | Demo                       |
-| --------------------- | --------------------------------------------- | -------------------------------------------------------- | -------------------------- |
-| **Recipes**           |                                               |                                                          |                            |
-| cronjob task onto kv  |                                               |                                                          |                            |
-| batch tasks           |                                               |                                                          |                            |
-| tasks using mcp tools |                                               |                                                          |                            |
-| Tasks using SSE       |                                               | [Repo](https://github.com/janwilmake/parallel-tasks-sse) | https://tasks.gptideas.com |
-|                       |                                               |                                                          |                            |
-| **Advanced Examples** |                                               |                                                          |                            |
-| GoogLLM v2            | Using the Parallel Search API to show results | [Repo](https://github.com/janwilmake/googllm-parallel)   | https://googllm.com        |
-| LMPIFY                | Making Parallel part of my day to day toolkit |                                                          |                            |
-| xytext                | Making Parallel part of my day to day toolkit |                                                          |                            |
+| Title                   | Description | Repo                                                     | Demo                       |
+| ----------------------- | ----------- | -------------------------------------------------------- | -------------------------- |
+| **Recipes**             |             |                                                          |                            |
+| cronjob task onto kv    |             |                                                          |                            |
+| batch tasks             |             |                                                          |                            |
+| tasks using mcp tools   |             |                                                          |                            |
+| Tasks using SSE         |             | [Repo](https://github.com/janwilmake/parallel-tasks-sse) | https://tasks.gptideas.com |
+|                         |             |                                                          |                            |
+| **Powered By Parallel** |             |                                                          |                            |
+
+<!--
+| GoogLLM v2 [soon]       | Using the Parallel Search API to show results | [Repo](https://github.com/janwilmake/googllm-parallel)   | https://googllm.com        |
+| LMPIFY [soon]           | Making Parallel part of my day to day toolkit |                                                          |                            |
+| xytext [soon]           | Making Parallel part of my day to day toolkit |                                                          |                            |
+-->
