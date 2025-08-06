@@ -85,17 +85,17 @@ After you have the URLs of the right context, it's a matter of providing that to
 
 These recipes focus on building full-stack serverless apps on Cloudflare Workers. You can alter the prompts as you wish to build using different technologies.
 
-| Title                        | Description                   | Repo                                                            | Demo                                                |
-| ---------------------------- | ----------------------------- | --------------------------------------------------------------- | --------------------------------------------------- |
-| **Recipes**                  |                               |                                                                 |                                                     |
-| Tasks using SSE              |                               | [Repo](https://github.com/janwilmake/parallel-tasks-sse)        | https://tasks.gptideas.com                          |
-| Recurring Tasks and Webhooks | Using cronjobs and KV         | [Repo](https://github.com/janwilmake/parallel-tasks-kv-cronjob) | https://parallel-daily-insights.wilmake.workers.dev |
-| Batch tasks                  | Using Parallel Task Group API |                                                                 |                                                     |
-| Batch tasks                  | Using Cloudflare Queues       |                                                                 |                                                     |
-|                              |                               |                                                                 |                                                     |
-| **Powered By Parallel API**  |                               |                                                                 |                                                     |
-| Tasks MCP server             |                               | [Repo](https://github.com/janwilmake/parallel-tasks-mcp)        |                                                     |
-| -                            |                               |                                                                 |                                                     |
+| Title                        | Description                   | Repo                                                            | Demo                                                        |
+| ---------------------------- | ----------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------- |
+| **Recipes**                  |                               |                                                                 |                                                             |
+| Tasks using SSE              |                               | [Repo](https://github.com/janwilmake/parallel-tasks-sse)        | [Demo](https://tasks.gptideas.com)                          |
+| Recurring Tasks and Webhooks | Using cronjobs and KV         | [Repo](https://github.com/janwilmake/parallel-tasks-kv-cronjob) | [Demo](https://parallel-daily-insights.wilmake.workers.dev) |
+| Batch tasks                  | Using Parallel Task Group API |                                                                 |                                                             |
+| Batch tasks                  | Using Cloudflare Queues       |                                                                 |                                                             |
+|                              |                               |                                                                 |                                                             |
+| **Powered By Parallel API**  |                               |                                                                 |                                                             |
+| Tasks MCP server             |                               | [Repo](https://github.com/janwilmake/parallel-tasks-mcp)        |                                                             |
+| -                            |                               |                                                                 |                                                             |
 
 <!--
 | GoogLLM v2 [soon]       | Using the Parallel Search API to show results | [Repo](https://github.com/janwilmake/googllm-parallel)   | https://googllm.com        |
